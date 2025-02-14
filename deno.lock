@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "npm:@fortawesome/fontawesome-free@^6.7.2": "6.7.2",
     "npm:@playwright/test@^1.49.1": "1.50.1",
     "npm:@sveltejs/adapter-node@^5.2.11": "5.2.12_@sveltejs+kit@2.17.1__@sveltejs+vite-plugin-svelte@5.0.3___svelte@5.19.9____acorn@8.14.0___vite@6.1.0____lightningcss@1.29.1__svelte@5.19.9___acorn@8.14.0__vite@6.1.0___lightningcss@1.29.1_rollup@4.34.6_@sveltejs+vite-plugin-svelte@5.0.3__svelte@5.19.9___acorn@8.14.0__vite@6.1.0___lightningcss@1.29.1_svelte@5.19.9__acorn@8.14.0_vite@6.1.0__lightningcss@1.29.1",
     "npm:@sveltejs/kit@^2.16.0": "2.17.1_@sveltejs+vite-plugin-svelte@5.0.3__svelte@5.19.9___acorn@8.14.0__vite@6.1.0___lightningcss@1.29.1_svelte@5.19.9__acorn@8.14.0_vite@6.1.0__lightningcss@1.29.1",
@@ -94,6 +95,9 @@
     },
     "@esbuild/win32-x64@0.24.2": {
       "integrity": "sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg=="
+    },
+    "@fortawesome/fontawesome-free@6.7.2": {
+      "integrity": "sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA=="
     },
     "@jridgewell/gen-mapping@0.3.8": {
       "integrity": "sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==",
@@ -776,6 +780,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@fortawesome/fontawesome-free@^6.7.2",
         "npm:@playwright/test@^1.49.1",
         "npm:@sveltejs/adapter-node@^5.2.11",
         "npm:@sveltejs/kit@^2.16.0",
